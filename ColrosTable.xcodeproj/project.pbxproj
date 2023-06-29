@@ -58,16 +58,24 @@
 		F95E48C42A4DF1B200B2E659 /* ColrosTable */ = {
 			isa = PBXGroup;
 			children = (
+				F95E48DD2A4E191B00B2E659 /* Code */,
 				F95E48C52A4DF1B200B2E659 /* AppDelegate.swift */,
 				F95E48C72A4DF1B200B2E659 /* SceneDelegate.swift */,
-				F95E48D92A4DF24B00B2E659 /* ColorsTableVC.swift */,
-				F95E48DB2A4DF38B00B2E659 /* ColorDetailVC.swift */,
 				F95E48CB2A4DF1B200B2E659 /* Main.storyboard */,
-				F95E48CE2A4DF1B500B2E659 /* Assets.xcassets */,
 				F95E48D02A4DF1B500B2E659 /* LaunchScreen.storyboard */,
+				F95E48CE2A4DF1B500B2E659 /* Assets.xcassets */,
 				F95E48D32A4DF1B500B2E659 /* Info.plist */,
 			);
 			path = ColrosTable;
+			sourceTree = "<group>";
+		};
+		F95E48DD2A4E191B00B2E659 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				F95E48DB2A4DF38B00B2E659 /* ColorDetailVC.swift */,
+				F95E48D92A4DF24B00B2E659 /* ColorsTableVC.swift */,
+			);
+			path = Code;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
